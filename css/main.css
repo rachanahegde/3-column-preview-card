@@ -71,17 +71,6 @@ button {
     color: hsl(0, 0%, 95%);
 }
 
-.attribution {
-    font-size: 11px; 
-    text-align: center; 
-    margin: 0 auto;
-    position: relative;
-    top: 130px;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
-
 @media all and (min-width: 1400px) {
     .suv p {
         padding: 5% 20% 30% 0%;
