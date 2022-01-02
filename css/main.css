@@ -1,3 +1,5 @@
+/* General Styles */
+
 h1 {
     font-family: 'Big Shoulders Display', cursive; 
     color: hsl(0, 0%, 95%);
@@ -11,21 +13,12 @@ p {
     padding: 5% 20% 20% 0%;
 }
 
-button {
-    font-family: 'Lexend Deca', sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 32px;
-    font-size: 15px;
-    border: solid 2px hsl(0, 0%, 95%);
-    border-radius: 30px;
-}
-
 .cards {
     display: flex;
     margin: 12% 20% 0% 20%;
 }
+
+/* Sedan Card */
 
 .sedan {
     padding: 5% 0% 5% 5%;
@@ -42,6 +35,8 @@ button {
     color: hsl(0, 0%, 95%);
 }
 
+/* SUV Card */
+
 .suv {
     padding: 5% 0% 5% 5%;
     background-color: hsl(184, 100%, 22%);
@@ -55,6 +50,8 @@ button {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
 }
+
+/* Luxury Card */
 
 .luxury {
     padding: 5% 0% 5% 5%;
@@ -70,6 +67,21 @@ button {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
 }
+
+/* Learn More Button */
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 32px;
+    font-size: 15px;
+    border: solid 2px hsl(0, 0%, 95%);
+    border-radius: 30px;
+}
+
+/* Media Queries */
 
 @media all and (min-width: 1400px) {
     .suv p {
